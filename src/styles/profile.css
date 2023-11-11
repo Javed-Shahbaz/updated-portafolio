@@ -1,0 +1,265 @@
+
+
+.high-profile {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+  }
+  
+  .high-cont {
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    /* z-index: -1; */
+  }
+
+
+  .lang-container{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+
+  .card-profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  .mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../asset/images/others/colorful.jpg');
+    background-size: cover;
+    opacity: 0.9; 
+    pointer-events: none;
+  
+  }
+
+  .profile-title{
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    /* transition: color 0.3s; */
+  }
+
+  .profile-title:hover {
+    color: #00abf0;
+    
+  }
+
+  .h2-top {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    color: white;
+     padding: 5% 0 0 0;
+  }
+  
+  .h2-top::before,
+.h2-top::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.h2-top::before {
+  left: 0;
+  transform-origin: left;
+}
+
+.h2-top::after {
+  right: 0;
+  transform-origin: right;
+}
+
+.h2-top:hover::before,
+.h2-top:hover::after {
+  transform: scaleX(1);
+}
+
+
+  
+ 
+  
+  .card-cont {
+    
+    width: 63%;
+    height: 25rem;
+    display: flex;
+    flex-direction: row;
+    /* background-color: white; */
+    gap: 2rem;
+    border: none;
+  
+    /* border-radius: 10px; */
+   
+  }
+
+
+ 
+  
+
+  .card-cont:nth-child(even) {
+    display: flex;
+    /* align-self: flex-start; */
+  }
+
+  .card-cont:nth-child(odd) {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+  }
+
+  
+  .card-img {
+    /* width: 55%;
+    height: 50%; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    flex: 1;
+    border-radius: 20px;
+  }
+
+ 
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    align-items: flex-start;
+   
+  }
+
+  .languages{
+    margin: 1rem;
+    gap: 1rem;
+    padding: 0;
+  }
+
+ 
+
+  .profile-text{
+    color:white;
+    padding-top: 1rem;
+ 
+  }
+
+  .btns {
+    gap: 1rem;
+    display: flex;
+    justify-content: initial;
+    width: 100%;
+}
+
+.card-cont:nth-child(odd) .card-body-profile  {
+  display: flex;
+   flex-direction: row-reverse; 
+  flex-wrap: wrap;
+}
+  
+
+  @media (min-width: 360px) and (max-width: 767px){
+    
+    .card-body-profile {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+  }
+    .card-cont{
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      width: 80%;
+    }
+
+   
+
+    .card-img {
+      object-fit: cover;
+      flex: 1;
+      border-radius: 10px;
+  }
+  .card-cont:nth-child(odd){
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+
+    .profile-title{
+      font-size: 20px;
+    }
+
+    .profile-text{
+      font-size: 13px;
+    }
+
+    .lang-container{
+      
+      display: flex;
+      align-items: center;
+    }
+
+    .languages {
+      margin: 1rem;
+      gap: 5px;
+      padding: 0;
+  }
+
+  .swiper {
+    margin-top: 5rem;
+    height: auto;
+}
+
+  
+
+
+  }
+
+  @media (min-width: 768px) and (max-width: 900px){
+
+    .card-cont {
+      width: 100%;
+      padding: 3rem;
+  }
+  }
+
+  @media (min-width: 901px) and (max-width: 1442px){
+    .card-cont {
+      width: 75%;
+      padding: 3rem;
+      height: 25rem;
+      display: flex;
+      flex-direction: row;
+      /* background-color: white; */
+      gap: 1rem;
+      border: none;
+      margin:0;
+      /* border-radius: 10px; */
+  }
+
+  .card-cont:nth-child(odd) {
+      margin-bottom: 0;
+  }
+
+  
+  }
