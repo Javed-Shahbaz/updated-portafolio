@@ -1,29 +1,23 @@
-import '../styles/cards.css';
-import {  useSelector } from 'react-redux';
-import CardItem from "./CardItem"
+import "../styles/cards.css";
+import { useSelector } from "react-redux";
+import CardItem from "./CardItem";
 
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
-
-
-
-
 const Cards = () => {
-
-  const {data} = useSelector((state) => state.cards);
-
+  const { data } = useSelector((state) => state.cards);
 
   return (
     <section id="projects">
       <div className="projects">
-        <h2 className="h2-card">Take a look at my projects</h2>
+        <h2 className="h2-card">Take a Look at My Projects</h2>
         <Swiper
-        modules={[Navigation, Pagination, Scrollbar, A11y]}
+          modules={[Navigation, Pagination, Scrollbar, A11y]}
           navigation
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
@@ -39,7 +33,7 @@ const Cards = () => {
             1000: {
               slidesPerView: 2,
             },
-            1200:{
+            1200: {
               slidesPerView: 3,
             },
             1880: {
@@ -60,6 +54,6 @@ const Cards = () => {
       <div className="wave"></div>
     </section>
   );
-}
+};
 
-export default Cards
+export default Cards;
