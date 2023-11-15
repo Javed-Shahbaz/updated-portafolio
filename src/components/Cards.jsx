@@ -21,7 +21,7 @@ const Cards = () => {
   return (
     <section id="projects">
       <div className="projects">
-        <h2 className="h2-card">take a look at my projects</h2>
+        <h2 className="h2-card">Take a look at my projects</h2>
         <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y]}
           navigation
