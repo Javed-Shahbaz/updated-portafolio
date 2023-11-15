@@ -39,7 +39,7 @@ const projectDetailList = [
       "Math Magicians Calculator app is a website for fans of mathematics. It is a Single Page App (SPA) that allows users to: 1)Make simple calculations. 2)Read a random math-related quote by fetching from an Api.",
     imageLink: math,
     technologies: ["HTML", "CSS", "React", "Redux"],
-    role: "FrontEnd Dev",
+    role: "FrontEnd Developer",
     company: "Microverse",
     year: "2023",
     repoLink: "https://github.com/Javed-Shahbaz",
