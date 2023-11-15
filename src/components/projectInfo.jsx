@@ -106,7 +106,7 @@ const ProjectInfo = () => {
         <h2 className="title-projectinfo-h2">{projectData.name}</h2>
         <div className="project-info-details-desc">
           <p>{projectData.fullDescription}</p>
-          <div className="btns">
+          {/* <div className="btns">
             <button type="button" className="btn-see-more live">
               See live
               <CgLivePhoto className="live-icon" />
@@ -115,7 +115,7 @@ const ProjectInfo = () => {
               See GitRepo
               <BsGithub className="git-icon" />
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
