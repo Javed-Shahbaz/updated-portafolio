@@ -51,14 +51,6 @@ const CardItem = ({ card }) => {
               See Live
               <CgLivePhoto className="live-icon" />
             </button>
-            <button
-              type="button"
-              className="btn-see-more git"
-              onClick={handleSeeRepo}
-            >
-              See GHRepo
-              <BsGithub className="git-icon" />
-            </button>
           </div>
         </div>
       </div>
