@@ -14,11 +14,24 @@ const Hero = () => {
         <div className="home">
           <div className="home-content">
             <h1>Hi I'm Javed</h1>
-            <h3>I'm a software developer! </h3>
+            <h3>I'm a Full-Stack & AI developer! </h3>
             <p>
-              I can help you build a product, feature or website look through
-              some of my work and experience. If you like what you see and have
-              a project you need coded, don't hesitate to contact me.
+              I am a versatile Full-Stack Web Developer as well as Artificial
+              Intelligenece Developer with over 22 years of combined experience
+              in technology and education. My journey spans 20 years in
+              teaching, where I fostered a passion for scientific thinking and
+              problem-solving, and 2+ years in freelance web development, where
+              I bring ideas to life with ReactJS, Ruby on Rails, PostgreSQL, and
+              Python. In my recent role as a full-stack developer and mentor,
+              I’ve built over 10 scalable, user-focused applications and guided
+              junior developers, focusing on clean code and efficient solutions.
+              My hands-on expertise in JavaScript, machine learning, and data
+              analysis, along with a strong foundation in computer science,
+              equips me to drive impactful, modern solutions. I’m passionate
+              about continuous learning and collaboration, always eager to work
+              with diverse teams to solve challenges and push technology
+              boundaries. Let’s connect to explore how my skills can bring value
+              to your next project or initiative!
             </p>
             <div className="btn-box">
               <a href="#contact-me" onClick={() => scrollToSection("projects")}>
