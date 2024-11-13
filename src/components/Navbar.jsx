@@ -42,7 +42,7 @@ const Navbar = () => {
   return (
     <header className="header">
       <a href="#" className="logo">
-        Javed
+        Jsoft
       </a>
       {isProjectInfo && (
         <AiFillBackward className="back-icon" onClick={onHandleNavigate} />

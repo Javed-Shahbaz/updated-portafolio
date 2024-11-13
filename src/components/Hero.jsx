@@ -13,7 +13,7 @@ const Hero = () => {
       <section id="home-sec">
         <div className="home">
           <div className="home-content">
-            <h1>Hi I'm Javed</h1>
+            <h1>Hi! I'm Javed</h1>
             <h3>I'm a Full-Stack & AI developer! </h3>
             <p>
               I am a versatile Full-Stack Web Developer as well as Artificial
